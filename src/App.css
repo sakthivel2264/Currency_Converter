@@ -1,0 +1,43 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+.input-amount,
+.input-from,
+.input-to {
+  margin-bottom: 20px;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+select {
+  background: #fff;
+  border: 1px solid #ccc;
+}
+h2{
+  text-align: center;
+}
+.btn {
+  background:lightgreen;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 25%;
+}
+.btn:hover {
+  background: lightblue;
+}
+.output {
+  margin-top: 20px;
+}
+
+#from, #to{
+  background-color: gray;
+}
